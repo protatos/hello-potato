@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06416E944CA94FF91AC818A4 /* Pods_Hello_Potato.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26843AFABF0EA37F958DCCFD /* Pods_Hello_Potato.framework */; };
+		BDDFB5CD1E9BCC4F00371E3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDFB5CC1E9BCC4F00371E3A /* AppDelegate.swift */; };
+		BDDFB5CF1E9BCC4F00371E3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDFB5CE1E9BCC4F00371E3A /* ViewController.swift */; };
+		BDDFB5D21E9BCC4F00371E3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDFB5D01E9BCC4F00371E3A /* Main.storyboard */; };
+		BDDFB5D41E9BCC4F00371E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDFB5D31E9BCC4F00371E3A /* Assets.xcassets */; };
+		BDDFB5D71E9BCC4F00371E3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDFB5D51E9BCC4F00371E3A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D51DF1C6E62A4608FB64AB1 /* Pods-Hello Potato.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello Potato.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hello Potato/Pods-Hello Potato.release.xcconfig"; sourceTree = "<group>"; };
+		26843AFABF0EA37F958DCCFD /* Pods_Hello_Potato.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hello_Potato.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AB7F5A3C4D375222975770 /* Pods-Hello Potato.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello Potato.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hello Potato/Pods-Hello Potato.debug.xcconfig"; sourceTree = "<group>"; };
+		BDDFB5C91E9BCC4F00371E3A /* Hello Potato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello Potato.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDFB5CC1E9BCC4F00371E3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDDFB5CE1E9BCC4F00371E3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDDFB5D11E9BCC4F00371E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDDFB5D31E9BCC4F00371E3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDDFB5D61E9BCC4F00371E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDDFB5D81E9BCC4F00371E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDDFB5C61E9BCC4E00371E3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06416E944CA94FF91AC818A4 /* Pods_Hello_Potato.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A4BA1DE08532DE385C1C9C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39AB7F5A3C4D375222975770 /* Pods-Hello Potato.debug.xcconfig */,
+				0D51DF1C6E62A4608FB64AB1 /* Pods-Hello Potato.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BDDFB5C01E9BCC4E00371E3A = {
+			isa = PBXGroup;
+			children = (
+				BDDFB5CB1E9BCC4F00371E3A /* Hello Potato */,
+				BDDFB5CA1E9BCC4F00371E3A /* Products */,
+				0A4BA1DE08532DE385C1C9C2 /* Pods */,
+				EB09FF36D8876553B3D5BB42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDDFB5CA1E9BCC4F00371E3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDDFB5C91E9BCC4F00371E3A /* Hello Potato.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDDFB5CB1E9BCC4F00371E3A /* Hello Potato */ = {
+			isa = PBXGroup;
+			children = (
+				BDDFB5CC1E9BCC4F00371E3A /* AppDelegate.swift */,
+				BDDFB5CE1E9BCC4F00371E3A /* ViewController.swift */,
+				BDDFB5D01E9BCC4F00371E3A /* Main.storyboard */,
+				BDDFB5D31E9BCC4F00371E3A /* Assets.xcassets */,
+				BDDFB5D51E9BCC4F00371E3A /* LaunchScreen.storyboard */,
+				BDDFB5D81E9BCC4F00371E3A /* Info.plist */,
+			);
+			path = "Hello Potato";
+			sourceTree = "<group>";
+		};
+		EB09FF36D8876553B3D5BB42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26843AFABF0EA37F958DCCFD /* Pods_Hello_Potato.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDDFB5C81E9BCC4E00371E3A /* Hello Potato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDFB5DB1E9BCC4F00371E3A /* Build configuration list for PBXNativeTarget "Hello Potato" */;
+			buildPhases = (
+				82390E44B04D86368B390A07 /* [CP] Check Pods Manifest.lock */,
+				BDDFB5C51E9BCC4E00371E3A /* Sources */,
+				BDDFB5C61E9BCC4E00371E3A /* Frameworks */,
+				BDDFB5C71E9BCC4E00371E3A /* Resources */,
+				6EB78230FF493456D392224E /* [CP] Embed Pods Frameworks */,
+				B9144CB8C6743BF3D3B07D78 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hello Potato";
+			productName = "Hello Potato";
+			productReference = BDDFB5C91E9BCC4F00371E3A /* Hello Potato.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDDFB5C11E9BCC4E00371E3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = KLinh;
+				TargetAttributes = {
+					BDDFB5C81E9BCC4E00371E3A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BDDFB5C41E9BCC4E00371E3A /* Build configuration list for PBXProject "Hello Potato" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDDFB5C01E9BCC4E00371E3A;
+			productRefGroup = BDDFB5CA1E9BCC4F00371E3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDDFB5C81E9BCC4E00371E3A /* Hello Potato */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDDFB5C71E9BCC4E00371E3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDFB5D71E9BCC4F00371E3A /* LaunchScreen.storyboard in Resources */,
+				BDDFB5D41E9BCC4F00371E3A /* Assets.xcassets in Resources */,
+				BDDFB5D21E9BCC4F00371E3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EB78230FF493456D392224E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hello Potato/Pods-Hello Potato-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82390E44B04D86368B390A07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9144CB8C6743BF3D3B07D78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hello Potato/Pods-Hello Potato-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDDFB5C51E9BCC4E00371E3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDFB5CF1E9BCC4F00371E3A /* ViewController.swift in Sources */,
+				BDDFB5CD1E9BCC4F00371E3A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDDFB5D01E9BCC4F00371E3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDFB5D11E9BCC4F00371E3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDDFB5D51E9BCC4F00371E3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDFB5D61E9BCC4F00371E3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDDFB5D91E9BCC4F00371E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDDFB5DA1E9BCC4F00371E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDDFB5DC1E9BCC4F00371E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39AB7F5A3C4D375222975770 /* Pods-Hello Potato.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hello Potato/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.klinh.Hello-Potato";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BDDFB5DD1E9BCC4F00371E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D51DF1C6E62A4608FB64AB1 /* Pods-Hello Potato.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hello Potato/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.klinh.Hello-Potato";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDDFB5C41E9BCC4E00371E3A /* Build configuration list for PBXProject "Hello Potato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDFB5D91E9BCC4F00371E3A /* Debug */,
+				BDDFB5DA1E9BCC4F00371E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDDFB5DB1E9BCC4F00371E3A /* Build configuration list for PBXNativeTarget "Hello Potato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDFB5DC1E9BCC4F00371E3A /* Debug */,
+				BDDFB5DD1E9BCC4F00371E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDDFB5C11E9BCC4E00371E3A /* Project object */;
+}
