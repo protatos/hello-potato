@@ -6,3 +6,7 @@ Hello Potato.xcodeproj/project.xcworkspace/contents.xcworkspacedata
 *.xcuserstate
 
 Hello Potato.xcodeproj/xcuserdata/klinh.xcuserdatad/xcschemes/xcschememanagement.plist
+build
+Pods
+Podfile.lock
+contents.xcworkspacedata
